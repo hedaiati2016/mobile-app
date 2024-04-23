@@ -1,7 +1,5 @@
 // SPDX-License-Identifier: ice License 1.0
 
-import {isIOS} from 'rn-units';
-
 /**
  * Is linking phone number on the Team Screen enabled
  */
@@ -12,5 +10,5 @@ export const isLinkPhoneNumberEnabled = false;
  */
 export const isChangePhoneNumberEnabled = false;
 
-export const isLiteTeam = isIOS;
-export const isLightDesign = isIOS;
+export const isLiteTeam = false;
+export const isLightDesign = false;
